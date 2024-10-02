@@ -18,7 +18,7 @@ const ProjectGrid = () => {
             <a
               key={project.id}
               href={project.link}
-              target="_blank"
+              target={project.image}
               rel="noopener noreferrer"
               className="text-white rounded-lg hover:scale-105 transform transition-all duration-300"
             >
