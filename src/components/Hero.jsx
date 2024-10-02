@@ -1,10 +1,12 @@
+import profile from "../assets/profile.png"
+
 const Hero = () => {
   return (
     <div className="pb-4 lg:mb-12 mt-20">
       <div className="flex flex-wrap mt-10 lg:flex-row-reverse">
         <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
-            <img src="/src/assets/profile.png" alt="profile-picture" className="border border-stone-900 rounded-3xl" width={350} height={300} />
+            <img src={profile} alt="profile-picture" className="border border-stone-900 rounded-3xl" width={350} height={300} />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
