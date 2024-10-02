@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import logo from "../assets/logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -19,7 +20,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="" aria-label="Home">
-              <img src="/src/assets/logo.png" className="h-8 w-auto sm:h-10" alt="logo" />
+              <img src={logo} className="h-8 w-auto sm:h-10" alt="logo" />
             </a>
           </div>
           
