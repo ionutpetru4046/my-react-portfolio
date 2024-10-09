@@ -1,5 +1,4 @@
-import React from "react"
-import { DiBootstrap, DiCss3, DiGithubFull, DiHtml5, DiJqueryLogo, DiJsBadge, DiNodejs, DiNpm, } from "react-icons/di"
+import { DiBootstrap, DiCss3, DiGithubFull, DiHtml5, DiJsBadge, DiNodejs, DiNpm, } from "react-icons/di"
 import { RiReactjsLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
