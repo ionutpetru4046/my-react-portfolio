@@ -13,21 +13,21 @@ const ProjectGrid = () => {
       <h2 id="projects" className="text-4xl font-semibold text-center mb-20">Projects</h2>
       <h3 className="text-3xl font-medium text-center mb-10">My Latest Projects</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {projects.map(project => (
+        {projects.map(projects => (
           <a
-            key={project.id}
-            href={project.link}
+            key={projects.id}
+            href={projects.link}
             target="_blank"
             rel="noopener noreferrer"
             className="text-white rounded-lg hover:scale-105 transform transition-all duration-300"
           >
             <img
-              src={project.image}
-              alt={project.title}
+              src={projects.image}
+              alt={projects.title}
               className="w-full h-48 object-cover rounded-t-lg mb-4"
             />
-            <h3 className="text-xl text-center font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-600 text-center hover:text-white">{project.description}</p>
+            <h3 className="text-xl text-center font-semibold mb-2">{projects.title}</h3>
+            <p className="text-gray-600 text-center hover:text-white">{projects.description}</p>
           </a>
         ))}
       </div>
