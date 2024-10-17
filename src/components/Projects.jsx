@@ -1,3 +1,7 @@
+/* eslint-disable no-unused-vars */
+import project1 from "../assets/project1.png"
+import project4 from "../assets/project4.png"
+
 const projects = [
   { id: 1, title: 'Modern Saas Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: '/src/assets/sass-website.png', link: 'https://modern-saas-website.vercel.app/' },
   { id: 2, title: 'Advertising Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: '/src/assets/cover page adcarrot.png', link: 'https://landing-page-advertising-website.vercel.app/' },

@@ -7,9 +7,6 @@ import Blog from "./components/Blog";
 import Projects from "./components/Projects";
 
 
-
-
-
 const App = () => {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
