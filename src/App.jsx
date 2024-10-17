@@ -1,10 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
-import ProjectGrid from "./components/ProjectGrid";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Blog from "./components/Blog";
+import Projects from "./components/Projects";
 
 
 
@@ -24,7 +24,7 @@ const App = () => {
         <Hero />
         <About />
         <Technologies />
-        <ProjectGrid />
+        <Projects />
         <Blog />
         <Contact />
       </div>
