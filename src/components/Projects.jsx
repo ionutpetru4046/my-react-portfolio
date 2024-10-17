@@ -7,7 +7,7 @@ const projects = [
   { id: 6, title: 'E-ecommerce Shop', description: 'HTML CSS Javascript,', image: '/src/assets/project4.png', link: 'https://ionutpetru4046.github.io/ecommerce/index.html' },
 ];
 
-const ProjectGrid = () => {
+const Projects = () => {
   return (
     <div className="max-w-7xl mx-auto p-4">
       <h2 id="projects" className="text-4xl font-semibold text-center mb-20">Projects</h2>
@@ -35,4 +35,4 @@ const ProjectGrid = () => {
   );
 };
 
-export default ProjectGrid;
+export default Projects;
