@@ -3,8 +3,8 @@ const projects = [
   { id: 2, title: 'Advertising Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: '/src/assets/project2.png', link: 'https://landing-page-advertising-website.vercel.app/' },
   { id: 3, title: 'VirtualR Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: '/src/assets/project3.png', link: 'https://landing-page-3dpjrrx48-ionutpetru4046s-projects.vercel.app/' },
   { id: 4, title: 'Sample Landing Page', description: 'Skills Used: Vite+React.js TailwindCSS', image: '/src/assets/project4.png', link: 'https://simple-landing-page-nu.vercel.app/' },
-  { id: 5, title: 'React.js Task Tracker App', description: 'Skills USed: React.js, Nodejs NPM Manager', image: '/src/assets/project5.png', link: 'https://ionutpetru4046.github.io/Task-Tracker-react.js/' },
-  { id: 6, title: 'E-ecommerce Shop', description: 'HTML CSS Javascript,', image: '/src/assets/project6.png', link: 'https://ionutpetru4046.github.io/ecommerce/index.html' },
+  { id: 5, title: 'React.js Task Tracker App', description: 'Skills USed: React.js, Nodejs NPM Manager', image: '/src/assets/project5.png', link: 'https://ionutpetru4046.github.io/ecommerce/index.html' },
+  { id: 6, title: 'E-ecommerce Shop', description: 'HTML CSS Javascript,', image: '/src/assets/project6.png', link: 'https://ionutpetru4046.github.io/Task-Tracker-react.js/'},
 ];
 
 const Projects = () => {
