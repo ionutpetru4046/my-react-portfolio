@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
-import logo from "../assets/logo.png"
+import logo from "/public/assets/logo.png"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
