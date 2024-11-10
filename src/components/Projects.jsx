@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const projects = [
   { id: 1, title: 'Modern Saas Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: require('/src/assets/project1.png'), link: 'https://modern-saas-website.vercel.app/' },
   { id: 2, title: 'Advertising Website', description: 'Skills Used: Vite+React.js TailwindCSS Framer-Motion', image: require('/src/assets/project2.png'), link: 'https://landing-page-advertising-website.vercel.app/' },
